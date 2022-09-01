@@ -5,7 +5,9 @@ library(lubridate)
 library(magrittr)
 
 
+
 library(readr)
+##link of databse (https://divvy-tripdata.s3.amazonaws.com/index.html)
 X202004_divvy_tripdata <- read_csv("New folder/202004-divvy-tripdata.csv")
 X202005_divvy_tripdata <- read_csv("New folder/202005-divvy-tripdata.csv")
 X202006_divvy_tripdata <- read_csv("New folder/202006-divvy-tripdata.csv")
